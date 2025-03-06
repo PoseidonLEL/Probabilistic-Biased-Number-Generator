@@ -21,5 +21,6 @@ cpdef list BCF_Vector(int minimum, int maximum, int favoredNum, int oStrictness,
     return return_array
 
 
+# Cython entry function, not used.
 def Biased_Curve_Favoritism():
     return "Use functions BCF() or BCF_Vector()"
