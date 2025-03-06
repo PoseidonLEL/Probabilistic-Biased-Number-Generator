@@ -4,6 +4,7 @@ import ctypes
 dll_call = ctypes.WinDLL('./Compilation.dll')
 BCF = dll_call.BCF
 
+
 #Function generates an array of random numbers using the function in the C++ file.
 cpdef list BCF_Vector(int minimum, int maximum, int favoredNum, int oStrictness, int length):
     if (oStrictness < 1):
